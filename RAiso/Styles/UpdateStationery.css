@@ -1,0 +1,57 @@
+﻿.content {
+    height: 470px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.box {
+    height: 55%;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px;
+}
+
+.header {
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+}
+
+.header h4 {
+    margin: 0;
+}
+
+.inputs {
+    padding: 20px;
+}
+
+.stationery-name-input {
+    width: 300px;
+    margin-left: 5px;
+}
+
+.stationery-price {
+    padding-top: 20px;
+}
+
+.stationery-price-input {
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    margin-left: 11px;
+}
+
+
+.error {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.button-update-stationery {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}

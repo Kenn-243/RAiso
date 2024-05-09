@@ -1,0 +1,60 @@
+﻿.content{
+    height: 270px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.box {
+    width: 500px;
+    height: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+}
+
+.header h4{
+    margin: 0;
+}
+
+.inputs{
+    padding: 20px;
+}
+
+.name-input{
+    margin-left: 27px;
+    width: 300px;
+}
+
+.password-input {
+    width: 300px;
+}
+
+.password{
+    padding-top: 15px;
+}
+
+.remember-me{
+    padding-top: 10px;
+}
+
+.remember-me-input {
+    font-size: 15px;
+}
+
+.error{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.button-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

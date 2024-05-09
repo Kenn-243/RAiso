@@ -1,0 +1,58 @@
+﻿.content {
+    height: 470px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 500px;
+}
+
+.header {
+    background-color: rgb(242, 242, 242);
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 55px;
+}
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.column-header-transaction-id{
+    width: 250px;
+}
+
+.column-value-transaction-id{
+    text-align: center;
+}
+
+.column-header-username {
+    width: 150px;
+}
+
+.column-value-username {
+    text-align: center;
+}
+
+.column-header-transaction-date {
+    width: 350px;
+}
+
+.column-value-transaction-date {
+    text-align: center;
+}
+
+.column-header-toggle {
+    width: 150px;
+}
+
+.column-value-toggle {
+    text-align: center;
+}

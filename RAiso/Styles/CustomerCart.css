@@ -1,0 +1,81 @@
+﻿.content {
+    height: 470px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+}
+
+.header {
+    background-color: rgb(242, 242, 242);
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 55px;
+}
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.column-header-stationery-name {
+    width: 170px;
+}
+
+.column-value-stationery-name {
+    text-align: center;
+}
+
+.column-header-stationery-price {
+    width: 150px;
+}
+
+.column-value-stationery-price {
+    text-align: center;
+}
+
+.column-header-quantity {
+    width: 100px;
+}
+
+.column-value-quantity {
+    text-align: center;
+}
+
+.column-header-update{
+    width: 100px;
+}
+
+.column-button-update{
+    text-align: center;
+}
+
+.column-header-delete{
+    width: 100px;
+}
+
+.column-button-delete{
+    text-align: center;
+}
+
+.checkout{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-checkout{
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: darkorange;
+}

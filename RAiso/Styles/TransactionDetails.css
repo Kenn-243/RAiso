@@ -1,0 +1,50 @@
+﻿.content {
+    height: 470px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 500px;
+}
+
+.header {
+    background-color: rgb(242, 242, 242);
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 55px;
+}
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.column-header-stationery-name {
+    width: 200px;
+}
+
+.column-value-stationery-name {
+    text-align: center;
+}
+
+.column-header-stationery-price {
+    width: 200px;
+}
+
+.column-value-stationery-price {
+    text-align: center;
+}
+
+.column-header-quantity {
+    width: 100px;
+}
+
+.column-value-quantity {
+    text-align: center;
+}
