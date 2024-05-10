@@ -31,26 +31,27 @@ namespace RAiso.Views.Customer
             if (!IsPostBack)
             {
                 List<MsStationery> msStationeries = StationeryController.GetListStationeries();
-                if (msStationeries.Count == 0)
+                int userId = userIdCookie == null ? Convert.ToInt32(Session["UserId"]) : Convert.ToInt32(userIdCookie);
+                List<TransactionHeader> transactionHeaders = TransactionHeaderController.GetListTransactionHeaders();
+                MsUser user = UserController.GetUserByUserId(userId);
+                
+                var userTransactions = transactionHeaders
+                    .Where(th => th.UserID == user.UserID)
+                    .Select(th => new
+                    {
+                        TransactionID = th.TransactionID,
+                        UserName = user.UserName,
+                        TransactionDate = th.TransactionDate
+                    })
+                    .ToList();
+                
+                if(userTransactions.Count == 0)
                 {
                     lblNoData.Visible = true;
                 }
                 else
                 {
                     lblNoData.Visible = false;
-                    int userId = userIdCookie == null ? Convert.ToInt32(Session["UserId"]) : Convert.ToInt32(userIdCookie);
-                    List<TransactionHeader> transactionHeaders = TransactionHeaderController.GetListTransactionHeaders();
-                    MsUser user = UserController.GetUserByUserId(userId);
-
-                    var userTransactions = transactionHeaders
-                        .Where(th => th.UserID == user.UserID)
-                        .Select(th => new
-                        {
-                            TransactionID = th.TransactionID,
-                            UserName = user.UserName,
-                            TransactionDate = th.TransactionDate
-                        })
-                        .ToList();
                     gvTransactionHistory.DataSource = userTransactions;
                     gvTransactionHistory.DataBind();
                 }

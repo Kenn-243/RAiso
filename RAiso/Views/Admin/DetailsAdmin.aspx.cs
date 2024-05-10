@@ -23,10 +23,6 @@ namespace RAiso.Views.Admin
                 {
                     Response.Redirect("~/Views/Customer/HomeCustomer.aspx");
                 }
-                else
-                {
-                    Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
-                }
             }
 
             if (!IsPostBack)
