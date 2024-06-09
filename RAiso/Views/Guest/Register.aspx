@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Guest/Guest.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="RAiso.Views.Register" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/NavbarMaster.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="RAiso.Views.Guest.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../../Styles/Register.css" rel="stylesheet" type="text/css" />
 </asp:Content>

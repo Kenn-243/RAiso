@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RAiso.Views
+namespace RAiso.Views.Guest
 {
 
 

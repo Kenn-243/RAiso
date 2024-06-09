@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="InsertStationery.aspx.cs" Inherits="RAiso.Views.Admin.InsertStationery" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/NavbarMaster.Master" AutoEventWireup="true" CodeBehind="InsertStationery.aspx.cs" Inherits="RAiso.Views.Admin.InsertStationery" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../../Styles/InsertStationery.css" rel="stylesheet" type="text/css" />
 </asp:Content>

@@ -1,12 +1,7 @@
 ﻿using RAiso.Controllers;
 using RAiso.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
 
 namespace RAiso.Views.Customer
 {
@@ -21,12 +16,9 @@ namespace RAiso.Views.Customer
             {
                 Response.Redirect("~/Views/Guest/Login.aspx");
             }
-            else if (userRole != null)
+            else if (userRole.Equals("Admin"))
             {
-                if (userRole.Equals("Admin"))
-                {
-                    Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
-                }
+                Response.Redirect("~/View/Home.aspx");
             }
 
             if (!IsPostBack)

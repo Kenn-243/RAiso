@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Customer/Customer.Master" AutoEventWireup="true" CodeBehind="CustomerCart.aspx.cs" Inherits="RAiso.Views.Customer.CustomerCart" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/NavbarMaster.Master" AutoEventWireup="true" CodeBehind="CustomerCart.aspx.cs" Inherits="RAiso.Views.Customer.CustomerCart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../../Styles/CustomerCart.css" rel="stylesheet" type="text/css" />
 </asp:Content>

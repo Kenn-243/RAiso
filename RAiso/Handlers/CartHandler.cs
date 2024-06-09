@@ -54,8 +54,13 @@ namespace RAiso.Handlers
 
         public static string AddToCart(int userId, int stationeryId, int quantity)
         {
-            CartRepositoriy.AddToCart(userId, stationeryId, quantity);
-            return "Success";
+            Cart cart = CartRepositoriy.GetCartByUserIdAndStationeryId(userId, stationeryId);
+            if (cart == null)
+            {
+                CartRepositoriy.AddToCart(userId, stationeryId, quantity);
+                return "Success";
+            }
+            return "Item is already in the cart";
         }
     }
 }

@@ -20,12 +20,9 @@ namespace RAiso.Views.Customer
             {
                 Response.Redirect("~/Views/Guest/Login.aspx");
             }
-            else if (userRole != null)
+            else if (userRole.Equals("Admin"))
             {
-                if (userRole.Equals("Admin"))
-                {
-                    Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
-                }
+                Response.Redirect("~/View/Home.aspx");
             }
 
             if (!IsPostBack)
@@ -108,7 +105,7 @@ namespace RAiso.Views.Customer
                         CartController.RemoveCart(userId, items.StationeryID);
                     }
 
-                    Response.Redirect("~/Views/Customer/HomeCustomer.aspx");
+                    Response.Redirect("~/Views/Home.aspx");
                 }
             }
 

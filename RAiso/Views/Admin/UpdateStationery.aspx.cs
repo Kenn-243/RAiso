@@ -16,12 +16,9 @@ namespace RAiso.Views.Admin
             {
                 Response.Redirect("~/Views/Guest/Login.aspx");
             }
-            else if (userRole != null)
+            else if (userRole.Equals("Customer"))
             {
-                if (userRole.Equals("Customer"))
-                {
-                    Response.Redirect("~/Views/Customer/HomeCustomer.aspx");
-                }
+                Response.Redirect("~/View/Home.aspx");
             }
 
             if (!IsPostBack)
@@ -42,7 +39,7 @@ namespace RAiso.Views.Admin
             lblError.Text = response;
 
             if (response.Equals("Success")){
-                Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
+                Response.Redirect("~/Views/Home.aspx");
             }
         }
     }

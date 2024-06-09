@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Customer/Customer.Master" AutoEventWireup="true" CodeBehind="TransactionHistory.aspx.cs" Inherits="RAiso.Views.Customer.TransactionHistory" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/NavbarMaster.Master" AutoEventWireup="true" CodeBehind="TransactionHistory.aspx.cs" Inherits="RAiso.Views.Customer.TransactionHistory" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="../../Styles/TransactionHistory.css" rel="stylesheet" type="text/css" />
 </asp:Content>

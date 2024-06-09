@@ -2,7 +2,7 @@
 using System.Web;
 using RAiso.Controllers;
 
-namespace RAiso.Views
+namespace RAiso.Views.Guest
 {
     public partial class Register : System.Web.UI.Page
     {
@@ -11,16 +11,9 @@ namespace RAiso.Views
             HttpCookie cookie = HttpContext.Current.Request.Cookies["cookieId"];
             string userRole = cookie?.Values["UserRole"];
 
-            if (userRole != null)
+            if (userRole != null || Session["UserRole"] != null)
             {
-                if (userRole.Equals("Customer"))
-                {
-                    Response.Redirect("~/Views/Customer/HomeCustomer.aspx");
-                }
-                else if (userRole.Equals("Admin"))
-                {
-                    Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
-                }
+                Response.Redirect("~/Views/Home.aspx");
             }
         }
         protected void btnRegister_Click(object sender, EventArgs e)
@@ -36,7 +29,7 @@ namespace RAiso.Views
             lblError.Text = response;
             if (response.Equals("Success"))
             {
-                Response.Redirect("~/Views/Guest/Login.aspx");
+                Response.Redirect("./Login.aspx");
             }
         }
     }

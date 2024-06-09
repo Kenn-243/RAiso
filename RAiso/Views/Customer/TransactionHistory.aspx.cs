@@ -20,12 +20,9 @@ namespace RAiso.Views.Customer
             {
                 Response.Redirect("~/Views/Guest/Login.aspx");
             }
-            else if (userRole != null)
+            else if (userRole.Equals("Admin"))
             {
-                if (userRole.Equals("Admin"))
-                {
-                    Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
-                }
+                Response.Redirect("~/View/Home.aspx");
             }
 
             if (!IsPostBack)
@@ -41,7 +38,7 @@ namespace RAiso.Views.Customer
                     {
                         TransactionID = th.TransactionID,
                         UserName = user.UserName,
-                        TransactionDate = th.TransactionDate
+                        TransactionDate = th.TransactionDate.ToString("dd-MM-yyyy"),
                     })
                     .ToList();
                 

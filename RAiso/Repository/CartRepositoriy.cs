@@ -37,5 +37,10 @@ namespace RAiso.Repository
             db.Carts.Add(createCart);
             db.SaveChanges();
         }
+
+        public static Cart FindCartByUserIdAndStationeryId(int userId, int stationeryId)
+        {
+            return db.Carts.Where(x => x.UserID == userId && x.StationeryID == stationeryId).FirstOrDefault();
+        }
     }
 }

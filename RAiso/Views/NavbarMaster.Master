@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavbarMaster.Master.cs" Inherits="RAiso.Views.NavbarMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>RAiso</title>
+    <link href="../Styles/Navbar.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar">
+            <div runat="server" class="links">
+                <div class="left">
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlHome" NavigateUrl="~/Views/Home.aspx">Home</asp:HyperLink>
+                </div>
+                <div class="right">
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlLogin" NavigateUrl="~/Views/Guest/Login.aspx">Login</asp:HyperLink>
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlRegister" NavigateUrl="~/Views/Guest/Register.aspx">Register</asp:HyperLink>
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlCustomerCart" NavigateUrl="~/Views/Customer/CustomerCart.aspx" Visible="false">Cart</asp:HyperLink>
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlTransactionHistory" NavigateUrl="~/Views/Customer/TransactionHistory.aspx" Visible="false">Transaction History</asp:HyperLink>
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlUpdateProfile" NavigateUrl="~/Views/UpdateProfile.aspx" Visible="false">Update Profile</asp:HyperLink>
+                    <asp:HyperLink CssClass="anchor" runat="server" ID="hlTransactionReport" NavigateUrl="~/Views/Admin/TransactionReport.aspx" Visible="false">Transaction Report</asp:HyperLink>
+                    <asp:LinkButton CssClass="anchor" ID="lbLogout" runat="server" OnClick="lbLogout_Click" Visible="false">Logout</asp:LinkButton>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
