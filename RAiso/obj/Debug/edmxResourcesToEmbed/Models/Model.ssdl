@@ -48,7 +48,9 @@
     <Property Name="TransactionDate" Type="date" Nullable="false" />
   </EntityType>
   <Association Name="FK_Cart_MsStationery">
-    <End Role="MsStationery" Type="Self.MsStationery" Multiplicity="1" />
+    <End Role="MsStationery" Type="Self.MsStationery" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="MsStationery">
@@ -72,7 +74,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_TransactionDetail_MsStationery">
-    <End Role="MsStationery" Type="Self.MsStationery" Multiplicity="1" />
+    <End Role="MsStationery" Type="Self.MsStationery" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="TransactionDetail" Type="Self.TransactionDetail" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="MsStationery">

@@ -242,6 +242,7 @@ C:\Programming\C#\Projects\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
 C:\Programming\C#\Projects\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
 C:\Programming\C#\Projects\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
 C:\Programming\C#\Projects\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Programming\C#\Projects\RAiso\RAiso\bin\CrystalDecisions.Web.dll
 C:\Programming\C#\Projects\RAiso\RAiso\bin\EntityFramework.dll
 C:\Programming\C#\Projects\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
 C:\Programming\C#\Projects\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -266,4 +267,3 @@ C:\Programming\C#\Projects\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.
 C:\Programming\C#\Projects\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
 C:\Programming\C#\Projects\RAiso\RAiso\obj\Debug\RAiso.dll
 C:\Programming\C#\Projects\RAiso\RAiso\obj\Debug\RAiso.pdb
-C:\Programming\C#\Projects\RAiso\RAiso\bin\CrystalDecisions.Web.dll

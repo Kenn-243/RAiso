@@ -47,7 +47,7 @@ namespace RAiso.Views
             string response = StationeryController.RemoveStationery(stationeryId);
             if (response.Equals("Success"))
             {
-                Response.Redirect("~/Views/Admin/HomeAdmin.aspx");
+                Response.Redirect("~/Views/Home.aspx");
             }
         }
 
