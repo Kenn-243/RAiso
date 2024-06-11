@@ -38,7 +38,7 @@ namespace RAiso.Views.Customer
                     {
                         TransactionID = th.TransactionID,
                         UserName = user.UserName,
-                        TransactionDate = th.TransactionDate.ToString("dd-MM-yyyy"),
+                        TransactionDate = th.TransactionDate.ToString("dd/MM/yyyy"),
                     })
                     .ToList();
                 

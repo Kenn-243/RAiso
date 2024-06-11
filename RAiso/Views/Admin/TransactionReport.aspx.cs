@@ -46,7 +46,7 @@ namespace RAiso.Views.Admin
                 var hrow = headerTable.NewRow();
                 hrow["transaction_id"] = t.TransactionID;
                 hrow["user_id"] = t.UserID;
-                hrow["transaction_date"] = t.TransactionDate;
+                hrow["transaction_date"] = t.TransactionDate.ToString("dd/MM/yyyy");
 
                 foreach(TransactionDetail d in t.TransactionDetails)
                 {
@@ -62,7 +62,6 @@ namespace RAiso.Views.Admin
 
                 hrow["grand_total_value"] = total;
                 headerTable.Rows.Add(hrow);
-                total = 0;
             }
             return data;
         }

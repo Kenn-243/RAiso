@@ -16,7 +16,7 @@ namespace RAiso.Views.Admin
             {
                 Response.Redirect("~/Views/Guest/Login.aspx");
             }
-            else if (userRole.Equals("Customer"))
+            else if (userRole != null && userRole.Equals("Customer"))
             {
                 Response.Redirect("~/View/Home.aspx");
             }
