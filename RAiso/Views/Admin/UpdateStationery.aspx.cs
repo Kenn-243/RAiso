@@ -29,8 +29,15 @@ namespace RAiso.Views.Admin
             {
                 int id = Convert.ToInt32(Request["ID"]);
                 MsStationery stationery = StationeryController.GetStationeryByStationeryId(id);
-                txtStationeryName.Text = stationery.StationeryName.ToString();
-                txtStationeryPrice.Text = stationery.StationeryPrice.ToString();
+                if(stationery != null)
+                {
+                    txtStationeryName.Text = stationery.StationeryName.ToString();
+                    txtStationeryPrice.Text = stationery.StationeryPrice.ToString();
+                }
+                else
+                {
+                    Response.Redirect("~/Views/Home.aspx");
+                }
             }
         }
 
