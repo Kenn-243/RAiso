@@ -30,6 +30,10 @@ namespace RAiso.Views
                     lblStationeryNameValue.Text = stationery.StationeryName;
                     lblStationeryPriceValue.Text = stationery.StationeryPrice.ToString();
                 }
+                else
+                {
+                    Response.Redirect("~/Views/Home.aspx");
+                }
             }
         }
 

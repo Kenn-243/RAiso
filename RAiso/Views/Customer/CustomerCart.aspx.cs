@@ -20,9 +20,13 @@ namespace RAiso.Views.Customer
             {
                 Response.Redirect("~/Views/Guest/Login.aspx");
             }
+            else if (Session["UserRole"] != null && Session["UserRole"].Equals("Admin"))
+            {
+                Response.Redirect("~/Views/Home.aspx");
+            }
             else if (userRole != null && userRole.Equals("Admin"))
             {
-                Response.Redirect("~/View/Home.aspx");
+                Response.Redirect("~/Views/Home.aspx");
             }
 
             if (!IsPostBack)

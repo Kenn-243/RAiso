@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Programming\\C#\\Random\\RAiso\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\guest\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\guest\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\guest\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\guest\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\admin\\updatestationery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\admin\\updatestationery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\admin\\transactionreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\admin\\transactionreport.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\admin\\insertstationery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\admin\\insertstationery.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\customer\\updatecart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\customer\\updatecart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\customer\\transactionhistory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\customer\\transactionhistory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\customer\\transactiondetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\customer\\transactiondetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|C:\\Programming\\C#\\Random\\RAiso\\raiso\\views\\customer\\customercart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B984CBF2-A13C-435C-8261-D149747B3AE3}|RAiso\\RAiso.csproj|solutionrelative:raiso\\views\\customer\\customercart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,115 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Guest\\Login.aspx.designer.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Guest\\Login.aspx.designer.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Guest\\Login.aspx.designer.cs",
-              "RelativeToolTip": "RAiso\\Views\\Guest\\Login.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:58:00.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Guest\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Guest\\Login.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Guest\\Login.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Guest\\Login.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:57.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateStationery.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Admin\\UpdateStationery.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Admin\\UpdateStationery.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Admin\\UpdateStationery.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Admin\\UpdateStationery.aspx.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:52.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionReport.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Admin\\TransactionReport.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Admin\\TransactionReport.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Admin\\TransactionReport.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Admin\\TransactionReport.aspx.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:48.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InsertStationery.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Admin\\InsertStationery.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Admin\\InsertStationery.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Admin\\InsertStationery.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Admin\\InsertStationery.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:45.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateCart.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\UpdateCart.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Customer\\UpdateCart.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\UpdateCart.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Customer\\UpdateCart.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:24.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TransactionHistory.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\TransactionHistory.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Customer\\TransactionHistory.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\TransactionHistory.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Customer\\TransactionHistory.aspx.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:20.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TransactionDetails.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\TransactionDetails.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Customer\\TransactionDetails.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\TransactionDetails.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Customer\\TransactionDetails.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:17.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerCart.aspx.cs",
-              "DocumentMoniker": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\CustomerCart.aspx.cs",
-              "RelativeDocumentMoniker": "RAiso\\Views\\Customer\\CustomerCart.aspx.cs",
-              "ToolTip": "C:\\Programming\\C#\\Random\\RAiso\\RAiso\\Views\\Customer\\CustomerCart.aspx.cs",
-              "RelativeToolTip": "RAiso\\Views\\Customer\\CustomerCart.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T13:57:12.134Z"
             }
           ]
         }
