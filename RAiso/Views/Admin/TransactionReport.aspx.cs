@@ -29,13 +29,10 @@ namespace RAiso.Views.Admin
                 Response.Redirect("~/Views/Home.aspx");
             }
 
-            if (!IsPostBack)
-            {
-                CrystalReport report = new CrystalReport();
-                CrystalReportViewer.ReportSource = report;
-                DataSet data = getData(TransactionHeaderHandler.GetListTransactionHeaders());
-                report.SetDataSource(data);
-            }
+            CrystalReport report = new CrystalReport();
+            CrystalReportViewer.ReportSource = report;
+            DataSet data = getData(TransactionHeaderHandler.GetListTransactionHeaders());
+            report.SetDataSource(data);
         }
 
         private DataSet getData(List<TransactionHeader> transactionHeaders)
